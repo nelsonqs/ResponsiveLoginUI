@@ -19,7 +19,7 @@ class LoginForm extends StatelessWidget {
         const Padding(
           padding: EdgeInsets.only(left: 12.0),
           child: Text(
-            'Email',
+            'Correo',
             style: TextStyle(
                 fontSize: 12.0,
                 color: AppColors.textColor,
@@ -41,7 +41,7 @@ class LoginForm extends StatelessWidget {
             decoration: InputDecoration(
               contentPadding: EdgeInsets.symmetric(vertical: 16.0),
                 prefixIcon: const Icon(Icons.email_outlined),
-                hintText: 'Enter Email',
+                hintText: 'Ingrese su correo',
                 hintStyle: TextStyle(
                     fontSize: 12.0,
                     color: AppColors.textColor.withOpacity(0.5)),
@@ -53,7 +53,7 @@ class LoginForm extends StatelessWidget {
         const Padding(
           padding: EdgeInsets.only(left: 12.0),
           child: Text(
-            'Password',
+            'Contraseña',
             style: TextStyle(
                 fontSize: 12.0,
                 color: AppColors.textColor,
@@ -77,7 +77,7 @@ class LoginForm extends StatelessWidget {
                 contentPadding: EdgeInsets.symmetric(vertical: 16.0),
                 prefixIcon: const Icon(Icons.lock_open),
                 suffixIcon: const Icon(Icons.visibility_off_outlined),
-                hintText: 'Enter Password',
+                hintText: 'Ingrese su Contraseña',
                 hintStyle: TextStyle(
                     fontSize: 12.0,
                     color: AppColors.textColor.withOpacity(0.5)),

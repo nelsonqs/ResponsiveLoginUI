@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 import '../colors.dart';
@@ -15,20 +13,20 @@ class SignInButton extends StatelessWidget {
       color: Colors.transparent,
       child: InkWell(
         borderRadius: BorderRadius.circular(16.0),
-        onTap: (){},
+        onTap: () {
+          debugPrint('sdsdsd');
+        },
         child: Ink(
-          padding: const EdgeInsets.symmetric(
-              vertical: 18.0, horizontal: 70.0),
+          padding: const EdgeInsets.symmetric(vertical: 18.0, horizontal: 70.0),
           decoration: BoxDecoration(
               color: AppColors.primaryColor,
               borderRadius: BorderRadius.circular(16.0)),
           child: const Text(
-            'Sign In',
+            'Iniciar Sesión',
             style: TextStyle(
                 color: AppColors.whiteColor,
                 fontSize: 16.0,
-                fontWeight: FontWeight.w600
-            ),
+                fontWeight: FontWeight.w600),
           ),
         ),
       ),

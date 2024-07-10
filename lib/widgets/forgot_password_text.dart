@@ -16,7 +16,7 @@ class ForgotPasswordText extends StatelessWidget {
       alignment: Alignment.centerRight,
       child: GestureDetector(
         onTap: (){},
-        child: const Text('Forgot Password?',
+        child: const Text('Perdió su contraseña?',
           style: TextStyle(
               color: AppColors.primaryColor,
               fontSize: 12.0

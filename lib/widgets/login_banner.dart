@@ -17,7 +17,7 @@ class LoginBanner extends StatelessWidget {
       height: height,
       color: AppColors.primaryColor,
       child: const Center(
-        child: Text('Sign In',
+        child: Text('Iniciar Sesión pruebaaaaaa',
           style: TextStyle(fontSize: 48, color: AppColors.whiteColor),),
       ),
     );
